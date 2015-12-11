@@ -11,8 +11,8 @@ from wsgiref.simple_server import WSGIServer, WSGIRequestHandler, make_server
 from boxsdk import OAuth2
 
 
-CLIENT_ID = ''  # Insert Box client ID here
-CLIENT_SECRET = ''  # Insert Box client secret here
+CLIENT_ID = 'g5llkevn2tlidg9gplfc2mpsuvl0ht0k'  # Insert Box client ID here
+CLIENT_SECRET = 'Ry9GxUkf9sSS43Vn9PIGPELEVfh4nEWT'  # Insert Box client secret here
 
 
 def authenticate(oauth_class=OAuth2):
